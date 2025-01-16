@@ -11,4 +11,4 @@ function names(firstName, lastName) {
     return names
 }
 
-module.exports = names()
+module.exports = names

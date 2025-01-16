@@ -1,4 +1,5 @@
 // 3 - people.js
+
 // 1. Importa la tua funzione da names.js
 // 2. Importa la tua funzione da hobbies.js
 // 3. Crea una funzione che non ha parametri. 

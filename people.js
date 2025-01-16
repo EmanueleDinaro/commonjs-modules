@@ -8,6 +8,16 @@
 
 // 1. Importa la tua funzione da names.js
 const name = require("./names.js")
+// 2. Importa la tua funzione da hobbies.js
+const hobby = require("./hobbies.js")
 
-const person = name();
-console.log(person)
+const fullName = name("Emanuele", "Dinaro");
+const hobbies = hobby("Visite mediche", "Spendere soldi", "League of Legends")
+
+const infoPerson = {
+    fullName,
+    hobbies
+}
+
+console.log(infoPerson);
+
